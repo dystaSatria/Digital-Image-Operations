@@ -32,7 +32,7 @@ def process_image():
     
     plt.subplot(2,3,1),plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)),plt.title('Orijinal olan')
     plt.xticks([]), plt.yticks([])
-    plt.subplot(2,3,2),plt.imshow(filtered_mean, cmap='gray'),plt.title('Mean Filtreleme')
+    plt.subplot(2,3,2),plt.imshow(filtered_mean, cmap='gray'),plt.title('Mean Filter')
     plt.xticks([]), plt.yticks([])
     plt.subplot(2,3,3),plt.imshow(filtered_median, cmap='gray'),plt.title('Median Filtreleme')
     plt.xticks([]), plt.yticks([])
