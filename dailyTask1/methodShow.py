@@ -4,8 +4,7 @@ import numpy as np
 from tkinter import *
 from tkinter import filedialog
 
-# 1180505042 - YUNUS EMRE ARSLAN 
-# 5200505062 - REZA DYSTA SATRIA
+
 def process_image():
     
     filename = filedialog.askopenfilename(initialdir="/", title="Görüntü Dosyasini Seçin",
