@@ -48,7 +48,7 @@ def exit_program():
 
 
 window = Tk()
-window.title("4 yumuşatma(filtreleme) gostermesi ")
+window.title("4 filter method")
 
 
 btn_browse = Button(window, text="Gozat", command=process_image)
