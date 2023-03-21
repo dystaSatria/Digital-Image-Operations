@@ -7,7 +7,7 @@ from tkinter import filedialog
 
 def process_image():
     
-    filename = filedialog.askopenfilename(initialdir="/", title="Görüntü Dosyasini Seçin",
+    filename = filedialog.askopenfilename(initialdir="/", title="Select the image",
                                           filetypes=(("Image Files", "*.jpg;*.jpeg;*.png"), ("All Files", "*.*")))
     
     
