@@ -41,7 +41,7 @@ window.title("4 yumuşatma(filtreleme) gostermesi")
 btn_browse = Button(window, text="Gozat", command=process_image)
 btn_browse.pack(pady=10)
 
-lbl1 = Label(window, text="Kernel Boyutu:")
+lbl1 = Label(window, text="Kernel Size:")
 lbl1.pack(padx=100,pady=50)
 e1 = Entry(window)
 e1.insert(END, '3')
