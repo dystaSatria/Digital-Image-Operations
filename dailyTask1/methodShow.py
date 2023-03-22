@@ -6,7 +6,7 @@ from tkinter import filedialog
 
 
 def process_image():
-    filename = filedialog.askopenfilename(initialdir="/", title="Görüntü Dosyasini Seçin",
+    filename = filedialog.askopenfilename(initialdir="/", title="Select Image File",
                                           filetypes=(("Image Files", "*.jpg;*.jpeg;*.png"), ("All Files", "*.*")))
 
     img = cv2.imread(filename)
