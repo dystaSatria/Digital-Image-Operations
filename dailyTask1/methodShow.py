@@ -25,7 +25,7 @@ def process_image():
     plt.xticks([]), plt.yticks([])
     plt.subplot(2, 3, 3), plt.imshow(filtered_median), plt.title('Median Filter')
     plt.xticks([]), plt.yticks([])
-    plt.subplot(2, 3, 4), plt.imshow(filtered_gaussian), plt.title('Gaussian Filtreleme')
+    plt.subplot(2, 3, 4), plt.imshow(filtered_gaussian), plt.title('Gaussian Filter')
     plt.xticks([]), plt.yticks([])
     plt.subplot(2, 3, 5), plt.imshow(filtered_bilateral), plt.title('Bilateral Filtreleme')
     plt.xticks([]), plt.yticks([])
