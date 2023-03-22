@@ -23,7 +23,7 @@ def process_image():
     plt.xticks([]), plt.yticks([])
     plt.subplot(2, 3, 2), plt.imshow(filtered_mean), plt.title('Mean Filter')
     plt.xticks([]), plt.yticks([])
-    plt.subplot(2, 3, 3), plt.imshow(filtered_median), plt.title('Median Filtreleme')
+    plt.subplot(2, 3, 3), plt.imshow(filtered_median), plt.title('Median Filter')
     plt.xticks([]), plt.yticks([])
     plt.subplot(2, 3, 4), plt.imshow(filtered_gaussian), plt.title('Gaussian Filtreleme')
     plt.xticks([]), plt.yticks([])
