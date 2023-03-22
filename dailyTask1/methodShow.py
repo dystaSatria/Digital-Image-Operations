@@ -30,23 +30,7 @@ def process_image():
     filtered_bilateral = cv2.bilateralFilter(gray, kernel_size, 75, 75)
 
     
-    plt.subplot(2,3,1),plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)),plt.title('Orijinal olan')
-    plt.xticks([]), plt.yticks([])
-    plt.subplot(2,3,2),plt.imshow(filtered_mean, cmap='gray'),plt.title('Mean Filter')
-    plt.xticks([]), plt.yticks([])
-    plt.subplot(2,3,3),plt.imshow(filtered_median, cmap='gray'),plt.title('Median Filter')
-    plt.xticks([]), plt.yticks([])
-    plt.subplot(2,3,4),plt.imshow(filtered_gaussian, cmap='gray'),plt.title('Gaussian Filter')
-    plt.xticks([]), plt.yticks([])
-    plt.subplot(2,3,5),plt.imshow(filtered_bilateral, cmap='gray'),plt.title('Bilateral Filtreleme')
-    plt.xticks([]), plt.yticks([])
-    plt.show()
-
-
-def exit_program():
-    window.destroy()
-
-
+    plt.subplot(2,3,1),plt.
 window = Tk()
 window.title("4 filter method")
 
