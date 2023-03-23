@@ -52,4 +52,4 @@ btn_exit.pack(padx=20,pady=10)
 
 window.mainloop()
 Klsl
-Open
+
