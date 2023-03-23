@@ -51,5 +51,4 @@ btn_exit = Button(window, text="Exit", command=exit_program)
 btn_exit.pack(padx=20,pady=10)
 
 window.mainloop()
-Klsl
 
