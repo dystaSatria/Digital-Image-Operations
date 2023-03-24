@@ -43,7 +43,7 @@ def exit_program():
 window = Tk()
 window.title("4 yumuşatma(filtreleme) gostermesi")
 
-btn_browse = Button(window, text="Gozat", command=process_image)
+btn_browse = Button(window, text="Browse", command=process_image)
 btn_browse.pack(pady=10)
 
 lbl1 = Label(window, text="Kernel Size:")
