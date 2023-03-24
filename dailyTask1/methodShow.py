@@ -53,6 +53,7 @@ e1 = Entry(window)
 e1.insert(END, '3')
 e1.pack(padx=100,pady=50)
 
+#Make and apply a exit button in GUI
 btn_exit = Button(window, text="Exit", command=exit_program)
 btn_exit.pack(padx=20,pady=10)
 
