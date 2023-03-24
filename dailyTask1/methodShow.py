@@ -4,7 +4,7 @@ import numpy as np
 from tkinter import *
 from tkinter import filedialog
 
-
+# Function to read images and display results
 def process_image():
     filename = filedialog.askopenfilename(initialdir="/", title="Select Image File",
                                           filetypes=(("Image Files", "*.jpg;*.jpeg;*.png"), ("All Files", "*.*")))
