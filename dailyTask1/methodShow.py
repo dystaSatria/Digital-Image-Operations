@@ -9,7 +9,7 @@ def process_image():
     # Open the selected image file using the dialog box
     filename = filedialog.askopenfilename(initialdir="/", title="Select Image File",
                                           filetypes=(("Image Files", "*.jpg;*.jpeg;*.png"), ("All Files", "*.*")))
-
+    # Read images using OpenCV
     img = cv2.imread(filename)
     
     kernel_size = int(e1.get())
