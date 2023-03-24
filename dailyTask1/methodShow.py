@@ -20,6 +20,8 @@ def process_image():
     filtered_gaussian = cv2.GaussianBlur(img, (kernel_size, kernel_size), 0)
     filtered_bilateral = cv2.bilateralFilter(img, kernel_size, 75, 75)
 
+    
+    # Show original image and results of 4 filters in one plot
     plt.subplot(2, 3, 1), plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)), plt.title('Original')
     plt.xticks([]), plt.yticks([])
     plt.subplot(2, 3, 2), plt.imshow(filtered_mean), plt.title('Mean Filter')
