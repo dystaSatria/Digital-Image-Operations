@@ -13,7 +13,7 @@ def process_image():
     img = cv2.imread(filename)
     
     kernel_size = int(e1.get())
-
+    # Process 4 filters with changeable kernels
     kernel_mean = np.ones((kernel_size, kernel_size), np.float32) / (kernel_size * kernel_size)
     filtered_mean = cv2.filter2D(img, -1, kernel_mean)
     filtered_median = cv2.medianBlur(img, kernel_size)
