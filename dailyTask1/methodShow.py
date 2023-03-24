@@ -37,7 +37,9 @@ def process_image():
 # Function to end program
 def exit_program():
     window.destroy()
-
+    
+    
+# Create a GUI view
 window = Tk()
 window.title("4 yumuşatma(filtreleme) gostermesi")
 
