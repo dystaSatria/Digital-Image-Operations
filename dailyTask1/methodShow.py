@@ -34,7 +34,7 @@ def process_image():
     plt.xticks([]), plt.yticks([])
     plt.show()
 
-
+# Function to end program
 def exit_program():
     window.destroy()
 
