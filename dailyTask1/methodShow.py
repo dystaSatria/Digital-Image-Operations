@@ -43,6 +43,7 @@ def exit_program():
 window = Tk()
 window.title("4 yumuşatma(filtreleme) gostermesi")
 
+#Make and apply a browse button in GUI
 btn_browse = Button(window, text="Browse", command=process_image)
 btn_browse.pack(pady=10)
 
