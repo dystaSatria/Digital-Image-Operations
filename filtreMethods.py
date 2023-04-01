@@ -1,6 +1,6 @@
 import cv2
 
-# Load the input image
+# Load the input imag
 input_image = cv2.imread("image.jpg")
 
 # Apply mean filter with a kernel size of 5x5
