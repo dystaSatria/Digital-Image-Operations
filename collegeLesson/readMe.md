@@ -46,4 +46,4 @@ cv2.destroyAllWindows()
 
 * ## Kenar Bulma
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52868369621/in/dateposted-public/" title="Screenshot (563)"><img src="https://live.staticflickr.com/65535/52868369621_0ae88abf2d.jpg" width="600" height="353" alt="Screenshot (563)"/></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52868369621/in/dateposted-public/" title="Screenshot (563)"><img src="https://live.staticflickr.com/65535/52868369621_0ae88abf2d.jpg" width="500" height="253" alt="Screenshot (563)"/></a>
