@@ -6,7 +6,7 @@ Morfolojik dönüşümler, görüntü işlemede ve bilgisayarlı görü işlemed
  
 * ##### AŞINDIRMA(Erode)
 * ##### YAYMA(dilate)  
-* #### Açma (Opening)
-* #### Kapama (Closing)
-* #### Morfolojik Gradyan
+* ##### Açma (Opening)
+* ##### Kapama (Closing)
+* ##### Morfolojik Gradyan
 
