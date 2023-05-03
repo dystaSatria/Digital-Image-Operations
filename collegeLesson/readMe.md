@@ -57,5 +57,5 @@ cv2.destroyAllWindows()
 * ###### 3.Kenar noktaların çıkarılması: Non-maximumSuppression : Gradyanbüyüklüğü ve yönü belirlenmesi sonrası, kenarı teşkil etmeyen istenmeyen pikselleri kaldırmak için tam bir görüntü taraması yapılır. Bunun için, her pikselde, pikselin, gradyanyönünde komşuları arasında yerel bir maksimum olup olmadığı kontrol edilir. Piksel lokal maksimum ise bir sonraki aşamaya geçer, değilse 0 değeri atanır(suppression).
 * ###### 4.Bağlama ve eşikleme: Hysteresis : Bu aşamada, hangi kenarların hangilerinin gerçekten kenar, hangilerinin olmadığına karar verilir. Bunun için minValve maxValolmak üzere iki eşik değeri kullanılır.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52868661969/in/dateposted-public/" title="Screenshot (565)"><img src="https://live.staticflickr.com/65535/52868661969_4f5af8478d.jpg" width="500" height="312" alt="Screenshot (565)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52868661969/in/dateposted-public/" title="Screenshot (565)"><img src="https://live.staticflickr.com/65535/52868661969_4f5af8478d.jpg" width="500" height="312" alt="Screenshot (565)"/>
 
