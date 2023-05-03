@@ -54,4 +54,5 @@ cv2.destroyAllWindows()
 
 * ###### 1.Gürültü giderme: Kenar algılaması görüntüdeki gürültüye duyarlı olduğundan, ilk adım görüntüdeki gürültüyü 5x5 Gauss filtre ile kaldırmaktır.
 * ###### 2.Görüntünün yeğinlikgradyanınınbulunması:Yumuşatılan görüntü daha sonra yatay yönde (Gx) ve dikey yönde (Gy) ilk türevi elde etmek için hem yatay hem de dikey yönde bir Sobelkerneliile filtrelenir. 
+* ###### 3.Kenar noktaların çıkarılması: Non-maximumSuppression : 
 
