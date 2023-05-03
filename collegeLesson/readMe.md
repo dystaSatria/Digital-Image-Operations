@@ -47,3 +47,11 @@ cv2.destroyAllWindows()
 * ## Kenar Bulma
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52868369621/in/dateposted-public/" title="Screenshot (563)"><img src="https://live.staticflickr.com/65535/52868369621_0ae88abf2d.jpg" width="500" height="253" alt="Screenshot (563)"/></a>
+
+* ##### Canny Operatörü
+
+4 aşamalı bir algoritmadır:
+
+* ###### 1.Gürültü giderme: Kenar algılaması görüntüdeki gürültüye duyarlı olduğundan, ilk adım görüntüdeki gürültüyü 5x5 Gauss filtre ile kaldırmaktır.
+* 
+
