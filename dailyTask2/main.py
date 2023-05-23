@@ -1,5 +1,5 @@
 # 5200505062 - REZA DYSTA - SATRIA
-# 1180505624 - FANNISA - FIRDAUS
+# 1180505624 - FANNISA -
 
 import cv2
 import numpy as np
