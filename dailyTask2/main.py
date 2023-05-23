@@ -1,5 +1,5 @@
 # 5200505062 - REZA DYSTA - SATRIA
-# 118050
+# 
 
 import cv2
 import numpy as np
