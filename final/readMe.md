@@ -42,3 +42,6 @@ result = cv.matchTemplate(image, templ, method[, result[,mask]])
 * Konturlar şekil analizi ve nesne algılama ve tanıma için kullandi.
 * Daha doğru sonuçlar için ```ikili(binary) görüntüler``` kullanılmalıdır. O yuzden kontur bulmadan once ```esikleme ``` veya ```Canny``` bulma algortimasi uygulanacak.
 * Kontur bulmak icin de arka plani ```siyah``` yada ```beyaz``` olmasi lazim.  
+
+### findContours() fonksiyonu 
+* Bu fonksyonu 3 arguman olmasi lazim : Kaynak goruntu, Kontur alma Metotu, Kontur yaklasim metot.
