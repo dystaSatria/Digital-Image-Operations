@@ -7,3 +7,7 @@ cv2.AdaptiveThreshold(src, dst, maxValue, adaptive_method=CV_ADAPTIVE_THRESH_MEA
 
 ```
 
+## otsunun ikilestirmesi(Binarization)
+* Kami menggunakan nilai yang dipilih secara acak sebagai nilai ambang batas global. Tapi dengan Otsu Yontemiyle gerek kalmaz.
+
+
