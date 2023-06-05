@@ -25,4 +25,5 @@ result = cv.matchTemplate(image, templ, method[, result[,mask]])
 * TM_CCORR ve TM_CCOEFF -> maximum deger
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52952674020/in/dateposted-public/" title="Screenshot (601)"><img src="https://live.staticflickr.com/65535/52952674020_9187beee69_o.png" width="596" height="479" alt="Screenshot (601)"/></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52952674000/in/dateposted-public/" title="Screenshot (600)"><img src="https://live.staticflickr.com/65535/52952674000_b32031147b_o.png" width="590" height="529" alt="Screenshot (600)"/></a>
 
