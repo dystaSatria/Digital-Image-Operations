@@ -57,3 +57,12 @@ countors,hierracy = cv.findCoutours(image,mode,method[,countors[,hierarrcy[,offs
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52953609410/in/dateposted-public/" title="Screenshot (603)"><img src="https://live.staticflickr.com/65535/52953609410_222392b79c_o.png" width="1075" height="256" alt="Screenshot (603)"/></a>
 * Kontur kestirim Mode :
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52953381814/in/dateposted-public/" title="Screenshot (605)"><img src="https://live.staticflickr.com/65535/52953381814_c06d56e8a0_o.png" width="1055" height="220" alt="Screenshot (605)"/></a>
+* (x, y) koordinat noktaları şeklinde saklanır. 
+* CHAIN_APPROX_NONE iletirseniz , tüm sınır noktaları saklanır. Ornek dikdortgen sinir cizerken 734 nokta icerir.
+* CHAIN_APPROX_SIMPLE bunu yapar. Tüm gereksiz noktaları kaldırır ve konturu sıkıştırır, böylece bellek tasarrufu sağlar.Ornek dikdortgen sinir cizerken sadece 4 nokta gosterilmektedir.
+* Sinir Cizgi buluduktan sonra ```drawContours``` kullanabilirsiniz
+```python
+image = cv.drawCountours(image,countours,contourldx,color[,thickness[,lineType,[,hierarcy[,maxLevel[,offset]]]]])
+```
+* ```python img = cv.drawCountours(img,countours,-1, (0,255,0),3)```. -1 demek kontoru cizmek. Tum konturlari cizmek icin -1 kullanir. 3 demek renk kaliniktir.
+   
