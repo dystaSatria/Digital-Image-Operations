@@ -24,3 +24,5 @@ result = cv.matchTemplate(image, templ, method[, result[,mask]])
 * TM_SQDIFF kullanıldığında minimum değer
 * TM_CCORR ve TM_CCOEFF -> maximum deger
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52952674020/in/dateposted-public/" title="Screenshot (601)"><img src="https://live.staticflickr.com/65535/52952674020_9187beee69_o.png" width="596" height="479" alt="Screenshot (601)"/></a>
+
