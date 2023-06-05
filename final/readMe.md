@@ -45,3 +45,8 @@ result = cv.matchTemplate(image, templ, method[, result[,mask]])
 
 ### findContours() fonksiyonu 
 * Bu fonksyonu 3 arguman olmasi lazim : Kaynak goruntu, Kontur alma Metotu, Kontur yaklasim metot.
+* ```python
+countors,hierracy = cv.findCoutours(image,mode,method[,countors[,hierarrcy[,offset]]] )
+
+```
+* 
