@@ -28,3 +28,5 @@ result = cv.matchTemplate(image, templ, method[, result[,mask]])
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52952674000/in/dateposted-public/" title="Screenshot (600)"><img src="https://live.staticflickr.com/65535/52952674000_b32031147b_o.png" width="590" height="529" alt="Screenshot (600)"/></a>
 * Kalo ngitung bola make threshold() soalnya bola lingkaran jadi harus di filter mask dulu baru bisa ditemuin.
 
+# Bilgi Cikarma(10 Week)
+* Sınır çizgilerini tespit etmek için ise OpenCVde findContours() fonksiyonunu kullanılabilir
