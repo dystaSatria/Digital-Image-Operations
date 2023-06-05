@@ -64,5 +64,6 @@ countors,hierracy = cv.findCoutours(image,mode,method[,countors[,hierarrcy[,offs
 ```python
 image = cv.drawCountours(image,countours,contourldx,color[,thickness[,lineType,[,hierarcy[,maxLevel[,offset]]]]])
 ```
-* ```python img = cv.drawCountours(img,countours,-1, (0,255,0),3) ``` . -1 demek kontoru cizmek. Tum konturlari cizmek icin -1 kullanir. 3 demek renk kaliniktir.
+* ```python img = cv.drawCountours(img,countours,-1, (0,255,0),3) ``` 
+ -1 demek kontoru cizmek. Tum konturlari cizmek icin -1 kullanir. 3 demek renk kaliniktir.
    
