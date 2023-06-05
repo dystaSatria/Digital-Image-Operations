@@ -17,3 +17,8 @@ cv2.AdaptiveThreshold(src, dst, maxValue, adaptive_method=CV_ADAPTIVE_THRESH_MEA
 * Görüntü üzerinde aranacak şablon(yama-patch) dikdörtgen. Yoksa maske uygulanarak 
 * Nasil Calisir: Eşleşen alanı tanımlamak için , şablon görüntüsünü kaydırarak kaynak görüntüyle karşılaştırmamız gerekir sonra Şablon görüntüsünü giriş görüntüsünün üzerine kaydırır giriş görüntüsünün o bölümünü şablon ile karşılaştırır. her seferinde 1 px hareket ettirilir. Soldan sağa, yukarıdan aşağıya. ne kadar iyi yada kötü olduğunu gösterecek bir metrik(ölçü) tanımlanır. I üzerinde T’nin her konumu için R sonucu saklanir. En parlak yer, en yüksek eşleşmeyi gösterir
 * TM_CCORR_NORMED -> R sonucu gostermektedir.
+* Şablon eşleştirme için matchTemplate() fonksiyonu kullanılır 
+```python
+result = cv.matchTemplate(image, templ, method[, result[,mask]])
+```
+
