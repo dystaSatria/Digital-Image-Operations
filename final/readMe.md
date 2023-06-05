@@ -50,4 +50,10 @@ result = cv.matchTemplate(image, templ, method[, result[,mask]])
 countors,hierracy = cv.findCoutours(image,mode,method[,countors[,hierarrcy[,offset]]] )
 
 ```
-* 
+* Ciktisi kontorler ve hiyerasidir.
+* Kontorler -> python listesi olarak dondurur. (x,y) koordinatlari iceren bir Numpy dizisidir.
+* Hiyerasi -> toplojisi hakkinda bilgi istege bagli cikti vektorudur. icice bulanan kontor durumlarda kullanabilir.
+* Islem uygulama mode :
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52953609410/in/dateposted-public/" title="Screenshot (603)"><img src="https://live.staticflickr.com/65535/52953609410_222392b79c_o.png" width="1075" height="256" alt="Screenshot (603)"/></a>
+* Kontur kestirim Mode :
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52953381814/in/dateposted-public/" title="Screenshot (605)"><img src="https://live.staticflickr.com/65535/52953381814_c06d56e8a0_o.png" width="1055" height="220" alt="Screenshot (605)"/></a>
