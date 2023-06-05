@@ -36,4 +36,9 @@ result = cv.matchTemplate(image, templ, method[, result[,mask]])
 <br>
 
 ## Bilgi Cikarma(10th Week)
+### Sınır Çizgileri (Contours)
 * Sınır çizgilerini tespit etmek için ise OpenCVde findContours() fonksiyonunu kullanılabilir
+* Kontürler, aynı renk veya yoğunluğa birleştiren bir eğri olarak açıklanabilir.
+* Konturlar şekil analizi ve nesne algılama ve tanıma için kullandi.
+* Daha doğru sonuçlar için ```ikili(binary) görüntüler``` kullanılmalıdır. O yuzden kontur bulmadan once ```esikleme ``` veya ```Canny``` bulma algortimasi uygulanacak.
+* Kontur bulmak icin de arka plani siyah yada beyaz olmasi lazim.  
