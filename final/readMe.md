@@ -69,4 +69,8 @@ image = cv.drawCountours(image,countours,contourldx,color[,thickness[,lineType,[
 img = cv.drawCountours(img,countours,-1, (0,255,0),3) 
 ``` 
  -1 demek kontoru cizmek. Tum konturlari cizmek icin -1 kullanir. 3 demek renk kaliniktir.
+ 
+ 
+ ### Goruntu momentleri
+ 
    
