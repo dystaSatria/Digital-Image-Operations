@@ -21,4 +21,6 @@ cv2.AdaptiveThreshold(src, dst, maxValue, adaptive_method=CV_ADAPTIVE_THRESH_MEA
 ```python
 result = cv.matchTemplate(image, templ, method[, result[,mask]])
 ```
+* TM_SQDIFF kullanıldığında minimum değer
+* TM_CCORR ve TM_CCOEFF -> maximum deger
 
