@@ -88,4 +88,13 @@ img = cv.drawCountours(img,countours,-1, (0,255,0),3)
 * CMYK Renk Uzayı -> Cyan, Magenta, Yellow, and Key (black).
 * ```CMYK renk uzayı çıkarmalı``` ```renk karışım yöntemi yardımıyla``` birim küpte kullanilir.
 *  Camgöbeği, galibarda, sarı ve siyah renk uzayının eksenleridir.
+* Çıkarmalı denmesinin sebebi beyaz ışıktan kırmızı, yeşil, mavi renklerini cikarmasini dolayidir. beyaz-isik-kirmizi(cyan).beyaz-isik-yesil(magenta). beyaz-isik-mavi(yellow).
+* Siyah rengi bu 3 renk ile oluşturmak çok maliyetli o yuzden siyah mürekkep ayrıca yazıcılarda bulunur.
+* YCbCr/ / YUV Renk Uzayı ->  yeğinlik(parlaklık) değerinin renk değerlerinden ayrılması hedeflenmiştir cunku RGB yetersiz.
+* YCbCr Renk Uzayı digital videolarda kullanilir. Y(Parlaklık(Luminance)luminance/parlaklik sinyal).Cr(chroma blue minus luma/chrominance renk bilgi). Cb(Chroma red minus luma/ chrominance renk bilgi).
+* Y, 8 bitliklik 16-235 aralığında tanımlanmaktadır. Cb ve Cr 16-240 arasinda tanamlanmaktadir.
+* HSV Renk Uzayı inSAN gorme en yakin renk uzaydir. HSV Hue, Saturation, Value yani renk özü, doygunluk ve parlaklık olarak adlandırılmıştır.
+* Renk özü (Hue) -> rengin baskın dalga uzunluğunu belirler.
+*  Doygunluk(Saturation), rengin "canlılığını" belirler.
+* Yüksek doygunluk -> canli renk . düşük olasılık -> gri tonlarına.
    
