@@ -72,5 +72,5 @@ img = cv.drawCountours(img,countours,-1, (0,255,0),3)
  
  
  ### hsvSeg.pdf
- Renk aralığı ile Bölütleme openCVde ```cv2.inRange()``` kullanilir.
+ * Renk aralığı ile Bölütleme openCVde ```cv2.inRange()``` kullanilir.
    
