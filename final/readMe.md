@@ -85,4 +85,7 @@ img = cv.drawCountours(img,countours,-1, (0,255,0),3)
 * cihaz bagimsiz renk uzaylari CIE tarafindan ve butun renkler renk olcumunu saglayan renkmetride kullanilan uzaydir.
 * RGB Renk uzayi 2 -> 0-255 ; siyah (0,0,0); beyaz (255,255,255)
 * red (255,0,0); cyan(0,255,255); green (0,255,0); Magenta (255,0,255); gray(128,128,128) ; blue(0,0,255); yellow (255,255,0)
+* CMYK Renk Uzayı -> Cyan, Magenta, Yellow, and Key (black).
+* ```CMYK renk uzayı çıkarmalı``` ```renk karışım yöntemi yardımıyla``` birim küpte kullanilir.
+*  Camgöbeği, galibarda, sarı ve siyah renk uzayının eksenleridir.
    
