@@ -71,6 +71,6 @@ img = cv.drawCountours(img,countours,-1, (0,255,0),3)
  -1 demek kontoru cizmek. Tum konturlari cizmek icin -1 kullanir. 3 demek renk kaliniktir.
  
  
- ### Goruntu momentleri
- 
+ ### hsvSeg.pdf
+ Renk aralığı ile Bölütleme openCVde ```cv2.inRange()``` kullanilir.
    
