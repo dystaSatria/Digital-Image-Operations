@@ -73,4 +73,16 @@ img = cv.drawCountours(img,countours,-1, (0,255,0),3)
  
  ### hsvSeg.pdf
  * Renk aralığı ile Bölütleme openCVde ```cv2.inRange()``` kullanilir.
+ * Rengi bolutlemek icin istenilen rengin acik-koyu islem yapmak gerekir.
+
+ ### renkUzay.pdf
+* Renk uzayları renkleri tanımlamak için kullanılan matematiksel modellerdir.
+* Renk uzayları 3D olarak tasarlanır. Cunku Renkmetri olustururan grassmanin birinci kanuna gore rengi icin 3 degisken gerekir.
+* 20 den fazla renk uzayi bulunmaktadir bugunki.
+* renk uzayına doğrusal ya da doğrusal olmayan yöntemlerle dönüşüm yapılabilmelidir
+* Renk uzayları cihaz bagimli ve bagimsiz renk uzaylari iki gruba ayrilir.
+* cihaz bagimli ozelliklerine bagli olarak uretilir.
+* cihaz bagimsiz renk uzaylari CIE tarafindan ve butun renkler renk olcumunu saglayan renkmetride kullanilan uzaydir.
+* RGB Renk uzayi 2 -> 0-255 ; siyah (0,0,0); beyaz (255,255,255)
+* red (255,0,0); cyan(0,255,255); green (0,255,0); Magenta (255,0,255); gray(128,128,128) ; blue(0,0,255); yellow (255,255,0)
    
