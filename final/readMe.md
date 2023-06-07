@@ -97,4 +97,12 @@ img = cv.drawCountours(img,countours,-1, (0,255,0),3)
 * Renk özü (Hue) -> rengin baskın dalga uzunluğunu belirler.
 *  Doygunluk(Saturation), rengin "canlılığını" belirler.
 * Yüksek doygunluk -> canli renk . düşük olasılık -> gri tonlarına.
+
+### waterched.pdf
+* Görüntü Bölütleme -dijital bir görüntüyü birden çok bölüme(parca,segment) ayirma islemidir.
+* daha fazla analiz icin nesneleri goruntuden cikmamizi yardimci oluruz.
+* bolutleme dogrulugu gorntu analiz basarli yada basarisizligi belirler.
+* görüntü segmentasyonu, görüntüdeki ilgilenilen her nesne için bize o nesne hakkında daha fazla bilgi sağlayan piksel bazında bir maske oluşturmaktadı.
+* Waterched algoritma ile bolutleme en populer yontemlerdir.
+
    
