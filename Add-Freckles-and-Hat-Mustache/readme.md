@@ -9,5 +9,5 @@
 ## Installation
 
 - Install open cv
-- [Shortcut files](https://t.me/dystaSatriaFiles/15)
+- Direct Take Away for complete source code : [Shortcut files link](https://t.me/dystaSatriaFiles/15)
 - Run main.py
